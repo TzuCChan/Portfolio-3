@@ -1,0 +1,22 @@
+:root {
+  --mainColor: gray;
+  --subColor: white;
+
+  --borderColor: gray;
+
+  --mainText: black;
+  --subText: gray;
+
+  --themeDotBorder: black;
+
+  --previewBG: white;
+  --previewShadow: rgba(110, 147, 92, 0.721);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: var(--mainColor);
+}
