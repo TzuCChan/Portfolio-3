@@ -50,3 +50,44 @@ h5 {
 h6 {
   font-size: 16px;
 }
+
+a,
+p,
+li{
+  font-family: "Roboto Mono", monospace;
+  color: purple;
+}
+
+.hello {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  min-height: 10em;
+}
+
+.intro {
+  background-color: var(--subColor);
+  border: 1px solid var(--borderColor);
+  border-radius: 5px 5px 0 0;
+  box-shadow: -1px 1px 3px -1px black;
+  -webkit-box-shadow: -1px 1px 3px -1px black;
+  -moz-box-shadow: -1px 1px 3px -1px black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "nav nav"
+    "left-side right-side";
+}
+
+.nav {
+  grid-area: nav;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.navlist {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 35px;
+}
