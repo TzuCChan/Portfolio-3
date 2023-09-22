@@ -219,3 +219,9 @@ a {
   justify-content: space-evenly;
   background-color: var(--previewShadow);
 }
+
+header,
+.tech,
+.photos {
+  overflow: auto;
+}
