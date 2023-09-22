@@ -91,3 +91,55 @@ li{
   align-items: center;
   padding-right: 35px;
 }
+
+.left-side {
+  grid-area: left-side;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.profile-pic {
+  display: block;
+  margin: 0 auto;
+  height: 275px;
+  width: 275px;
+  object-fit: cover;
+  border-bottom: 2px solid var(--borderColor);
+}
+
+#theme-options-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.theme-switch {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px solid var(--themeDotBorder);
+  -webkit-box-shadow: -1px 1px 3px -1px black;
+  -moz-box-shadow: -1px 1px 3px -1px black;
+  box-shadow: -1px 1px 3px -1px black;
+  cursor: pointer;
+}
+
+.theme-switch:hover {
+  border-width: 5px;
+}
+
+#light-mode {
+  background-color: white;
+}
+
+#dark-mode {
+  background-color: black;
+}
+
+.right-side {
+  grid-area: right-side;
+  display: grid;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
