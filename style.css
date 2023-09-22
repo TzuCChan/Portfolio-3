@@ -189,3 +189,33 @@ li{
   bottom: -5px;
   right: -5px;
 }
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.main-container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.Biography {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.technicalskills {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white
+  /* background-color: var(--previewShadow); */
+}
+
+.experienceandeducation {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--previewShadow);
+}
