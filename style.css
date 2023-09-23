@@ -224,4 +224,6 @@ header,
 .tech,
 .photos {
   overflow: auto;
+  background-color: var(--mainColor);
+  border-bottom: 1px solid var(--borderColor);
 }
