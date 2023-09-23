@@ -280,3 +280,22 @@ img {
 x {
   color: aqua;
 }
+
+@media screen and (max-width: 2500px) {
+  .main-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav"
+      "left-side"
+      "right-side";
+  }
+  .right-side {
+    justify-content: center;
+  }
+}
