@@ -299,3 +299,8 @@ x {
     justify-content: center;
   }
 }
+
+.introduction {
+  color: brown;
+  font-size: x-small;
+}
