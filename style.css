@@ -306,7 +306,7 @@ x {
 }
 
 .footer {
-  position: button;
+  position:relative;
   font-size: 10px;
   text-align: center;
   /* background: black; */
