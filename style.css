@@ -304,3 +304,11 @@ x {
   color: brown;
   font-size: x-small;
 }
+
+.footer {
+  position: button;
+  font-size: 10px;
+  text-align: center;
+  /* background: black; */
+  padding: 1rem;
+}
