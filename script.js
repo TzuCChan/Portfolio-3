@@ -21,3 +21,5 @@ function setTheme(mode) {
     document.getElementById("theme-style").href = "darkStyle.css";
   }
 }
+
+localStorage.setItem('theme', mode)
